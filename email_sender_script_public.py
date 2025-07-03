@@ -2,6 +2,10 @@ import pandas as pd
 import win32com.client as win32
 import os
 
+# Install required packages if running outside notebook (uncomment if needed)
+# import subprocess
+# subprocess.check_call(["pip", "install", "pandas", "pywin32", "openpyxl"])
+
 # Load the Excel file (choose the correct sheet)
 EXCEL_FILE = "your_excel_file.xlsx"  # Replace with your file name
 while True:
