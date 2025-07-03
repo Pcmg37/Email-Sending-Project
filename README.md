@@ -20,6 +20,9 @@ This script automates the process of sending project forecast update requests vi
 2. Install required packages:
    ```sh
    pip install pandas pywin32
+   # Or, if running the script outside a notebook, you can use:
+   # import subprocess
+   # subprocess.check_call(["pip", "install", "pandas", "pywin32", "openpyxl"])
    ```
 3. Place your Excel file in the same directory as the script, or update the `EXCEL_FILE` variable.
 4. Update the `signature_path` variable with the correct path to your Outlook signature file (usually in `%APPDATA%\Microsoft\Signatures`).
